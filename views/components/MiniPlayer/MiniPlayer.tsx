@@ -15,7 +15,8 @@ function MiniPlayer() {
     const style = StyleSheet.create({
         container: {
             marginBottom: player.status != PlayerStatus.NA ? 40 : 0, 
-            height: player.status != PlayerStatus.NA ? 70 : 0
+            height: player.status != PlayerStatus.NA ? 70 : 0,
+            backgroundColor: "white"
         },
         icon: { 
             height: 40,
